@@ -121,7 +121,7 @@ export default function HomeClient() {
       </aside>
       <div className="flex flex-col">
         <header className="sticky top-0 z-10 flex h-[57px] items-center gap-1 border-b bg-background px-4">
-          <h1 className="text-xl font-semibold">Data Safety & Privacy Policy</h1>
+          <h1 className="text-xl font-semibold">Labeling Platform</h1>
           <Button
             variant="outline"
             size="sm"
@@ -131,7 +131,7 @@ export default function HomeClient() {
             <LogIn className="size-3.5" />
           </Button>
         </header>
-        <main className="grid overflow-auto p-4 grid-cols-6 gap-4">
+        <main className="grid overflow-auto p-2 md:p-4 lg:p-4 grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 md:gap-2 lg:gap-4">
           {
             apps?.map((item: any, index: any) => {
               return (
