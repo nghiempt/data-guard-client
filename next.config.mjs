@@ -8,6 +8,12 @@ const nextConfig = {
                 port: '',
                 pathname: '/128/**',
             },
+            {
+                protocol: 'https',
+                hostname: 'play-lh.googleusercontent.com',
+                port: '',
+                pathname: '**',
+            },
         ],
     },
 };
